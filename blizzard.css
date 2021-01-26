@@ -193,6 +193,10 @@ html.theme-dark::before {
   color: #fff;
 }
 
+.theme-light .headerPlaying-j0WQBV {
+  background-color: var(--background-tertiary);
+}
+
 /*
 Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 */
