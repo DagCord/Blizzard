@@ -1,0 +1,8 @@
+{
+    "name": "Blizzard",
+    "description": "Inspired by the icy winds of the north",
+    "version": "1.0.0",
+    "author": "Daggy",
+    "license": "MIT",
+    "theme": "./blizzard.css"
+}

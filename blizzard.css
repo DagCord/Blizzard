@@ -1,0 +1,280 @@
+/**
+ * @name Blizzard
+ * @version 1.0.0
+ * @description Inspired by the icy winds of the north
+ * @website https://github.com/DagCord/Blizzard
+ */
+
+
+
+
+:root {
+    /* Color palette */
+    --blizzard-primary: #e5e9f0;
+    --blizzard-secondary: #d8dee9;
+    --blizzard-secondary-alt:#eceff4;
+    --blizzard-tertiary: #EDF2F7;
+    --blizzard-input-box: #ebf8ff;
+    --blizzard-frost-blue: #88c0d0;
+    --blizzard-frost-dark-blue: #5e81ac;
+
+    /* Scrollbar */
+    --blizzard-scrollbar-track: var(--blizzard-primary);
+    --blizzard-scrollbar-thumb: var(--blizzard-secondary);
+}
+html.theme-dark::before {
+    content: "This is a light mode theme. Maybe find a good dark theme";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: var(--blizzard-primary);
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    right: 0;
+    left: 0;
+}
+.theme-light {
+    --background-primary: var(--blizzard-primary);
+    --background-secondary: var(--blizzard-secondary);
+    --background-secondary-alt: var(--blizzard-secondary-alt);
+    --background-tertiary: var(--blizzard-tertiary);
+    --background-accent: var(--blizzard-frost-blue);
+    --local-bot-side: var(--blizzard-frost-blue);
+    /* Chat input box */
+    --channeltextarea-background: var(--blizzard-input-box);
+    --scrollbar-auto-thumb: var(--blizzard-secondary);
+    --scrollbar-auto-track: var(--blizzard-primary);
+}
+
+/* People column */
+.theme-light .container-1D34oG { background-color: var(--background-primary); }
+
+/* Modals */
+.theme-light .root-1gCeng { background-color: var(--background-primary); }
+.theme-light .footer-2gL1pp { background-color: var(--background-tertiary); }
+
+/* Popup when you click a mention */
+.theme-light .headerNormal-T_seeN { background-color: var(--background-tertiary); }
+.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 { background-color: var(--background-secondary); }
+
+/* Mention autocompletion in chat box */
+.theme-light .autocomplete-1vrmpx { background-color: var(--background-tertiary) }
+.theme-light .selected-1Tbx07 { background-color: var(--background-secondary); }
+
+.theme-light .item-2hkk8m {
+    background-color: var(--header-primary);
+}
+
+/* Assets are all white*/
+.theme-light svg {
+    color: #5c6b80;
+}
+
+.theme-light .premiumIcon-1rDbWQ {
+    color: #ff73fa;
+}
+
+.theme-light .ownerIcon-2NH9FM {
+    color: #faa61a;
+}
+/* Discord mentions*/
+.theme-light .mentioned-xhSam7:before {
+    background-color: #6ba9ff;
+}
+
+.theme-light .mentioned-xhSam7 {
+    background-color: var(--blizzard-input-box);
+}
+
+/* Discord Codeblocks */
+.theme-light code {
+    background-color: var(--blizzard-input-box);
+}
+
+.theme-light .inline {
+    background-color: var(--background-primary);
+}
+
+.theme-light .hljs {
+    background-color: var(--blizzard-input-box);
+}
+
+/* Embeds with no explicit color set*/
+.theme-light .embed-IeVjo5 {
+    border-color: var(--background-primary);
+}
+
+/* Do not Disturb Status*/
+.theme-light rect[mask="url(#svg-mask-status-dnd)"] {
+    fill: #bf616a;
+}
+
+.theme-light rect[mask="url(#svg-mask-status-online)"] {
+  fill: #a3be8c;
+}
+
+.theme-light rect[mask="url(#svg-mask-status-idle)"] {
+  fill: #ebcb8b;
+}
+
+.theme-light rect[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: #a3be8c;
+}
+
+/* Mention Badge*/
+.theme-light .numberBadge-2s8kKX {
+    background-color: var(--blizzard-frost-dark-blue)!important;
+}
+/* Search Modal */
+.theme-light .open-6_Y_aH {
+    background-color: var(--background-secondary);
+}
+
+/* Quote */
+.theme-light .blockquoteContainer-U5TVEi {
+    background-color: var(--background-secondary-alt);
+    
+}
+
+/* New Reply*/
+.repliedMessage-VokQwo:before {
+    border-color: white;
+}
+
+.theme-light .repliedMessage-VokQwo {
+  background-color: var(--background-secondary-alt);
+  padding: 0.5em;
+  width: fit-content;
+} */ 
+
+
+/* Context Menus*/
+.thin-1ybCId {
+    background-color: var(--background-secondary);
+}
+
+.theme-light .isUnread-3Ef-o9 {
+  border-color: var(--blizzard-frost-blue);
+}
+.theme-light .unreadPill-2HyYtt {
+  fill: var(--blizzard-frost-blue);
+  background-color: var(--blizzard-frost-blue);
+}
+
+
+/* Unread Bar */
+.theme-light .newMessagesBar-265mhP {
+  background-color: var(--blizzard-frost-blue);
+}
+
+/* Notifs */
+.theme-light .unreadMentionsBar-1VrBNe  {
+  background-color: var(--blizzard-frost-blue);
+}
+
+/* Active FOlder */
+.theme-light .item-2hkk8m {
+  background-color: #81a1c1;
+}
+
+/* Menu Green */
+.theme-light .container-3auIfb {
+  background-color: #a3be8c;
+}
+
+ /* Bot tags not gay */
+.theme-light .botTagRegular-2HEhHi {
+  transition: .5s;
+  background: rgba(114,137,218,0.1);
+  color: #7289da;
+}
+.theme-light .botTagRegular-2HEhHi:hover {
+  transition: .5s;
+  background: #7289da;
+  color: #fff;
+}
+
+/*
+Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
+*/
+
+.theme-light .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #FFFFFF;
+}
+
+.hljs,
+.hljs-subst {
+  color: #434f54;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name {
+  color: #00979D;
+}
+
+.hljs-built_in,
+.hljs-literal,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #D35400;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #00979D;
+}
+
+.hljs-type,
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #005C5F;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: rgba(149,165,166,.8);
+}
+
+.hljs-meta-keyword {
+  color: #728E00;
+}
+
+.hljs-meta {
+  color: #434f54;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-function {
+  color: #728E00;
+}
+
+.hljs-number {
+  color: #8A7B52;  
+}
