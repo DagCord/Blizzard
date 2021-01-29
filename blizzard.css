@@ -160,6 +160,12 @@ html.theme-dark::before {
   background-color: var(--blizzard-frost-blue);
 }
 
+.thene-light .unreadPillCap-3_K2q2 {
+    fill: var(--blizzard-frost-blue);
+    background-color: var(--blizzard-frost-blue);
+    color: var(--blizzard-frost-blue);
+}
+
 
 /* Unread Bar */
 .theme-light .newMessagesBar-265mhP {
